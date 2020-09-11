@@ -44,4 +44,7 @@ function takon_ngebug_opo_ora (){
 kopirek_ben_ra_di_colong();
 gempa_internsial_node();
 takon_ngebug_opo_ora();
+// COPYRIGHT INTERNSIAL NODE
+// EDIT ? Include "Clone from INTERNSIAL NODE edit BY ???"
+// Thanks
 ?>
