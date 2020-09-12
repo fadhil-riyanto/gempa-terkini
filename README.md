@@ -7,3 +7,6 @@ Tool gempa terkini yang d tulis dengan bahasa PHP
 - php gempa.php
 
 Makasih udah support kami ;v
+
+ERROR ? Coba jalankan 
+apt-get install php7.2-xml di terminal
