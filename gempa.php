@@ -34,10 +34,10 @@ function takon_ngebug_opo_ora (){
         //kondisi jika ngebug
         if ($tanya_kiper_gawang == "ya") {
 			print "\033[0;36m";
-            print "=========Kontak kami di (DM saja ntar aku balas)========".PHP_EOL;
+            print "====Kontak kami di DM saja (ntar aku balas)====".PHP_EOL;
             print "telegram kami di @internsialnode yaww".PHP_EOL;
             print "Instagram Kami di @internsial_node yaw".PHP_EOL;
-            print "=========MAKASIH, I love You========".PHP_EOL;
+            print "==============MAKASIH, I love You==============".PHP_EOL;
         } else {
             print "ya udah, makasih telah gunakan tool ini ;v".PHP_EOL;
         }
@@ -45,6 +45,7 @@ function takon_ngebug_opo_ora (){
 kopirek_ben_ra_di_colong();
 gempa_internsial_node();
 takon_ngebug_opo_ora();
-print "\033[0m"; // Normal
+print "\033[0m"; // Normal warna kebalikan semula
 //COPYRIGHT INTERNSIAL NODE
+//EDIT? KASIH NAMA SAYA DI SOURCE CODE...MAKASIH
 ?>
