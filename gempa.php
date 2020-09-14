@@ -4,7 +4,7 @@ function gempa_internsial_node (){
     $link_sumber = "https://data.bmkg.go.id/autogempa.xml";
     //load dah selesai wkwk
     //buka file xml dan parsing satu satu;v
-    $buka_data = simplexml_load_file($link_sumber);
+    $buka_data = @simplexml_load_file($link_sumber)or die ("gagal! Perbaiki internet nya gan...");
     //cetak ke layar monitor
         print "\033[0;36m"; //aku buta warna, ketoke cyan nek ra salah ;v
         print "tanggal   :".$buka_data->gempa->Tanggal.PHP_EOL;
@@ -28,11 +28,12 @@ function kopirek_ben_ra_di_colong () {
     print "===========================================".PHP_EOL;
 }
 function takon_ngebug_opo_ora (){
-    print "Bug? Jika iya ketik YA : ";
+    print "Bug? Jika iya ketik ya : ";
     $tanya = fopen("php://stdin","r");
     $tanya_kiper_gawang = trim (fgets($tanya));
         //kondisi jika ngebug
-        if ($tanya_kiper_gawang == "YA") {
+        if ($tanya_kiper_gawang == "ya") {
+			print "\033[0;36m";
             print "=========Kontak kami di (DM saja ntar aku balas)========".PHP_EOL;
             print "telegram kami di @internsialnode yaww".PHP_EOL;
             print "Instagram Kami di @internsial_node yaw".PHP_EOL;
@@ -44,7 +45,6 @@ function takon_ngebug_opo_ora (){
 kopirek_ben_ra_di_colong();
 gempa_internsial_node();
 takon_ngebug_opo_ora();
-// COPYRIGHT INTERNSIAL NODE
-// EDIT ? Include "Clone from INTERNSIAL NODE edit BY ???"
-// Thanks
+print "\033[0m"; // Normal
+//COPYRIGHT INTERNSIAL NODE
 ?>
